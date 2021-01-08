@@ -78,7 +78,7 @@
 			if(val==true)
 			{				
 				alert("Logged Out Successfully");
-				location.href="/Student_Record_System/";
+				location.href="https://student-record-management-sys.herokuapp.com/";
 			}
 
 		});

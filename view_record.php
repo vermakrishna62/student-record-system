@@ -57,7 +57,7 @@
 			    </thead>
 			    <tbody class="bg-light text-dark">
 			    	<?php  
-						$conn = mysqli_connect("localhost","root",'',"student_record_management_system");
+						$conn = mysqli_connect("remotemysql.com","Yo8XLI7jJz","NjkyqMR4cj","Yo8XLI7jJz");
 
 						$sql = "SELECT * FROM student_record_data";
 						$res = mysqli_query($conn,$sql);

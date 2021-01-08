@@ -2,7 +2,7 @@
 
 	// student_record_management_system database connection
 
-	$conn = mysqli_connect("localhost","root",'',"student_record_management_system");
+	$conn = mysqli_connect("remotemysql.com","Yo8XLI7jJz","NjkyqMR4cj","Yo8XLI7jJz");
 
 	$sql = "SELECT * from student_record_data";
 	$res = mysqli_query($conn,$sql);
